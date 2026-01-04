@@ -12,13 +12,19 @@ export default function AboutPage() {
           I focus on details and I'm passionate about crafting software 
           products that look great and are both accessible and easy to maintain.
         </p>
-        
-        {/* Profile Image Placeholder */}
-        <div className="w-full aspect-video bg-zinc-900 rounded-2xl overflow-hidden border border-white/10 relative group">
-          <div className="absolute inset-0 flex items-center justify-center text-zinc-500 group-hover:text-zinc-400 transition-colors">
-            [Your Image Here]
-          </div>
-        </div>
+        {/* Profile Image */}
+<figure className="my-8 space-y-2">
+  <div className="w-full aspect-video bg-zinc-900 rounded-2xl overflow-hidden border border-white/10 relative group">
+    <img 
+      src="/optimized_under_2mb.jpg" 
+      alt="Charles portrait" 
+      className="w-full h-full object-cover object-[25%_center] transition-transform duration-700 group-hover:scale-105"
+    />
+  </div>
+  <figcaption className="text-center text-sm text-zinc-500 italic font-medium tracking-tight">
+    In Nairobi, Kenya — Jan '26
+  </figcaption>
+</figure>
       </section>
 
       {/* 2. Connect Section */}
