@@ -50,9 +50,9 @@ export default function AboutPage() {
         
         <div className="space-y-8">
           <ExperienceItem 
-            company="National Write Your Congressman Club" 
-            role="Frontend Tech Lead" 
-            date="May 2024 — Present" 
+            company="Britech Computers LTD" 
+            role="Lead Manager" 
+            date="Sep 2023 — Present" 
           />
           <ExperienceItem 
             company="Matter Supply Co." 
