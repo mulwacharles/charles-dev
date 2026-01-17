@@ -60,7 +60,7 @@ export default function AboutPage() {
             date="June 2022 - August 2022" 
           />
           <ExperienceItem 
-            company="BPSmart S.A.S" 
+            company="Co-Impact Org" 
             role="Frontend Tech Lead" 
             date="Jan 2020 — Aug 2020" 
           />
